@@ -16,9 +16,10 @@
             </intent-filter>
         </activity>
 
+        // Activities
         <activity android:name=".CreateActivity"></activity>
-
         <activity android:name=".PickToDoActivity"></activity>
+        <activity android:name=".ViewToDoActivity"></activity>
 
     </application>
 </manifest>

@@ -7,7 +7,10 @@ import java.util.ArrayList;
 public class Data {
 
     public static ArrayList<ToDo> todos = new ArrayList<>();
-
+    static {
+        todos.add(new Data.ToDo("ToDo A"));
+        todos.add(new Data.ToDo("ToDo B"));
+    }
 
     public static class ToDo {
 
