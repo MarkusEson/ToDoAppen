@@ -16,15 +16,13 @@ public class CreateActivity extends AppCompatActivity {
     }
 
     public void createButtonClicked(View view){
-        System.out.println("CREATE button clicked");
 
-        EditText inputToDoText = (EditText) findViewById(R.id.ToDotextField);
+        EditText inputToDoText = (EditText) findViewById(R.id.ToDotextField);   // takes string from the TextBox input
         String enteredTitle = inputToDoText.getText().toString();
 
-        System.out.println(enteredTitle);
-
-        Data.todos.add(new Data.ToDo(enteredTitle));
+        Data.todos.add(new Data.ToDo(enteredTitle)); // adds my Todoitem to the array
         System.out.println(Data.todos);
+        finish();
     }
 
 
