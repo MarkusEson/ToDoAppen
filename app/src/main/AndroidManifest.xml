@@ -20,6 +20,7 @@
         <activity android:name=".CreateActivity"></activity>
         <activity android:name=".PickToDoActivity"></activity>
         <activity android:name=".ViewToDoActivity"></activity>
+        <activity android:name=".DeleteToDoActivity"></activity>
 
     </application>
 </manifest>

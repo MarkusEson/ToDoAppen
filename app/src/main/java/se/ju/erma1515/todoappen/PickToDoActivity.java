@@ -13,28 +13,38 @@ public class PickToDoActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_picktodo);
 
+
         // DISPLAYS TODOS IN LISTVIEW
-        ListView listView = (ListView) findViewById(R.id.ToDoListView);
+        ListView listView = (ListView) findViewById(R.id.listview_todo);
         listView.setAdapter(new ArrayAdapter<Data.ToDo>(
             this,
             android.R.layout.simple_list_item_1,
             Data.todos
         ));
 
-        // OPENS TODOS CLICKED ON BY GETTING POSITION CLICKED
+
+        // SELECTS TODOS CLICKED ON BY GETTING POSITION CLICKED
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 
+            // ON ITEM CLICKED
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Data.ToDo clickedToDo = Data.todos.get(position);
-                //System.out.println(clickedToDo);
 
-                Intent viewToDointent = new Intent(PickToDoActivity.this, ViewToDoActivity.class);
-                viewToDointent.putExtra("todoIndex", position);
-                startActivity(viewToDointent);
+                /*
+                Data.ToDo clickedToDo = Data.todos.get(position);
+
+                Intent intent = new Intent(PickToDoActivity.this, ViewToDoActivity.class);
+                intent.putExtra("todoIndex", position);
+                */
+                Intent resultIntent = new Intent();
+                resultIntent.putExtra("todoIndex", position);
+                setResult(RESULT_OK, resultIntent);
+                finish();
+                //startActivity(intent);
             }
         });
     }
