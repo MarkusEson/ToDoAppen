@@ -20,9 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7a1d111-f6a8-455f-ad1c-40727a6f510b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/se/ju/erma1515/todoappen/DeleteToDoActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/se/ju/erma1515/todoappen/DeleteToDoActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_delete.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_delete.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/se/ju/erma1515/todoappen/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/se/ju/erma1515/todoappen/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/se/ju/erma1515/todoappen/PickToDoActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/se/ju/erma1515/todoappen/PickToDoActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/se/ju/erma1515/todoappen/ViewToDoActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/se/ju/erma1515/todoappen/ViewToDoActivity.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -48,11 +49,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/se/ju/erma1515/todoappen/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+            <state relative-caret-position="394">
+              <caret line="55" column="13" lean-forward="true" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,8 +86,8 @@
       <file leaf-file-name="PickToDoActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/se/ju/erma1515/todoappen/PickToDoActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="43" column="47" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="47" />
+            <state relative-caret-position="649">
+              <caret line="43" column="1" lean-forward="true" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#930#1510#0" expanded="true" />
@@ -96,14 +97,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DeleteToDoActivity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DeleteToDoActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/se/ju/erma1515/todoappen/DeleteToDoActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="41" column="29" lean-forward="true" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
+            <state relative-caret-position="510">
+              <caret line="39" column="62" lean-forward="true" selection-start-line="39" selection-start-column="62" selection-end-line="39" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1410#1640#0" expanded="true" />
+                <element signature="e#1082#1345#0" expanded="true" />
+                <element signature="e#1344#1345#0" expanded="true" />
+                <element signature="e#1655#1656#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -113,7 +116,7 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/se/ju/erma1515/todoappen/Data.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -2431,18 +2434,18 @@
         <option value="$PROJECT_DIR$/app/src/main/java/se/ju/erma1515/todoappen/CreateActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/se/ju/erma1515/todoappen/Data.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_viewtodo.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/se/ju/erma1515/todoappen/ViewToDoActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_picktodo.xml" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_deletetlist.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/se/ju/erma1515/todoappen/PickToDoActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_delete.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/se/ju/erma1515/todoappen/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/se/ju/erma1515/todoappen/PickToDoActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/se/ju/erma1515/todoappen/ViewToDoActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/se/ju/erma1515/todoappen/DeleteToDoActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/se/ju/erma1515/todoappen/MainActivity.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="1134" />
     <option name="height" value="1167" />
@@ -2653,7 +2656,14 @@
       <option name="project" value="LOCAL" />
       <updated>1547799167922</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="changing delete function">
+      <created>1547800288985</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1547800288985</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -2666,7 +2676,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1134" height="1167" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -2679,11 +2689,11 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" weight="0.32950193" />
       <window_info anchor="bottom" id="Terminal" weight="0.32950193" />
-      <window_info anchor="bottom" id="Logcat" visible="true" weight="0.33236715" />
+      <window_info anchor="bottom" id="Logcat" visible="true" weight="0.32950193" />
       <window_info id="Captures" order="2" weight="0.25" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49868074" visible="true" weight="0.24301676" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49868074" visible="true" weight="0.1391258" />
       <window_info anchor="right" id="Assistant" weight="0.23560767" />
       <window_info anchor="bottom" id="Build" weight="0.19636016" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32950193" />
@@ -2734,7 +2744,8 @@
     </ignored-roots>
     <MESSAGE value="Merge branch 'Markus' of https://github.com/MarkusEson/ToDoAppen&#10;&#10;# Conflicts:&#10;#&#9;.idea/caches/build_file_checksums.ser&#10;#&#9;.idea/workspace.xml" />
     <MESSAGE value="fixed view and delete" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed view and delete" />
+    <MESSAGE value="changing delete function" />
+    <option name="LAST_COMMIT_MESSAGE" value="changing delete function" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2838,10 +2849,20 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/ju/erma1515/todoappen/Data.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/se/ju/erma1515/todoappen/PickToDoActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="47" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="47" />
+        <state relative-caret-position="649">
+          <caret line="43" column="1" lean-forward="true" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#930#1510#0" expanded="true" />
@@ -2860,33 +2881,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/ju/erma1515/todoappen/Data.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/ju/erma1515/todoappen/DeleteToDoActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="510">
+          <caret line="39" column="62" lean-forward="true" selection-start-line="39" selection-start-column="62" selection-end-line="39" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1082#1345#0" expanded="true" />
+            <element signature="e#1344#1345#0" expanded="true" />
+            <element signature="e#1655#1656#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/se/ju/erma1515/todoappen/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+        <state relative-caret-position="394">
+          <caret line="55" column="13" lean-forward="true" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/se/ju/erma1515/todoappen/DeleteToDoActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="41" column="29" lean-forward="true" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1410#1640#0" expanded="true" />
           </folding>
         </state>
       </provider>

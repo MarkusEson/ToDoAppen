@@ -34,17 +34,10 @@ public class PickToDoActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
-                /*
-                Data.ToDo clickedToDo = Data.todos.get(position);
-
-                Intent intent = new Intent(PickToDoActivity.this, ViewToDoActivity.class);
-                intent.putExtra("todoIndex", position);
-                */
-                Intent resultIntent = new Intent();
+                Intent resultIntent = new Intent(); // create intent to send back the position clicked
                 resultIntent.putExtra("todoIndex", position);
-                setResult(RESULT_OK, resultIntent);
+                setResult(RESULT_OK, resultIntent); // send back result code and the intent with the position clicked
                 finish();
-                //startActivity(intent);
             }
         });
     }

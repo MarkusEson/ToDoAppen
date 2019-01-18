@@ -22,8 +22,8 @@ public class ViewToDoActivity extends AppCompatActivity {
 
         TextView ToDoTextView = findViewById(R.id.task_todo_title); // initiate textview
 
-        Integer position = getIntent().getIntExtra("todoIndex", -1);
-        Data.ToDo todoToPrint = Data.todos.get(position);
+        Integer position = getIntent().getIntExtra("todoIndex", -1);    // gets the position from the intent extra
+        Data.ToDo todoToPrint = Data.todos.get(position);   // gets the text from the ToDoo with the help from the position
         ToDoTextView.setText(todoToPrint.title);
     }
 }

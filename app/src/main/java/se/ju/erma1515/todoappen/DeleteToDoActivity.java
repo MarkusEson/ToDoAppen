@@ -21,20 +21,21 @@ public class DeleteToDoActivity extends AppCompatActivity {
     }
 
     public void onDeleteButtonClicked(View view) {
-        System.out.println("DELETE THIS TODO");
 
-        Integer position = getIntent().getIntExtra("todoIndex", -1);
-        Data.ToDo todoToDelete = Data.todos.get(position);
+        Integer position = getIntent().getIntExtra("todoIndex", -1);       // gets the position of the cliked todo
+        final Data.ToDo todoToDelete = Data.todos.get(position);    // locates the todoo in the Data.Todo list
 
         new AlertDialog.Builder(this).setTitle("Delete this ToDo?").setMessage("Do you really want to delete this ToDo?")
                 .setPositiveButton(
                         android.R.string.yes,
-                        new DialogInterface().OnClickListener(){
+                        new DialogInterface.OnClickListener(){
                             public void onClick(DialogInterface dialog, int whichButton) {
                                 // delete it
+                                Data.todos.remove(todoToDelete); // removes he ToDo form the list
+                                finish();
                             }
                         }
-                ).setNegativebutton(
+                ).setNegativeButton(
                         android.R.string.no,
                         new DialogInterface.OnClickListener(){
                             public void onClick(DialogInterface dialog, int whichButton) {
@@ -42,7 +43,5 @@ public class DeleteToDoActivity extends AppCompatActivity {
                             }
                         }
                 ).show();
-
-
     }
 }

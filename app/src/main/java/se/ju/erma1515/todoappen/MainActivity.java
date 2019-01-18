@@ -38,9 +38,9 @@ public class MainActivity extends AppCompatActivity {
         Intent deleteToDoIntent = new Intent(this, PickToDoActivity.class);  // identifies the activity PickToDoActivity and launches it
         startActivityForResult(deleteToDoIntent, DELETE_TODO);
     }
+
+
     @Override
-
-
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 
         // Check which request we're responding to
@@ -48,28 +48,22 @@ public class MainActivity extends AppCompatActivity {
             // Make sure the request was successful
             if (resultCode == RESULT_OK) {
 
-                System.out.println("VIEW");
-
-                Integer position = data.getIntExtra("todoIndex", -1);
+                Integer position = data.getIntExtra("todoIndex", -1);   // get position integer of clicked ToDo from the intents Extra
 
                 Intent viewToDointent = new Intent(MainActivity.this, ViewToDoActivity.class);
                 viewToDointent.putExtra("todoIndex", position);
                 startActivity(viewToDointent);
-
             }
         }
         if (requestCode == DELETE_TODO) {
             // Make sure the request was successful
             if (resultCode == RESULT_OK) {
 
-                System.out.println("DELETE");
-
-                Integer position = data.getIntExtra("todoIndex", -1);
+                Integer position = data.getIntExtra("todoIndex", -1);   // get position integer of clicked ToDo from the intents Extra
 
                 Intent deleteToDointent = new Intent(MainActivity.this, DeleteToDoActivity.class);
                 deleteToDointent.putExtra("todoIndex", position);
                 startActivity(deleteToDointent);
-
             }
         }
     }
