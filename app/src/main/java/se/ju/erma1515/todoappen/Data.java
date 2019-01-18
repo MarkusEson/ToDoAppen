@@ -8,9 +8,8 @@ public class Data {
 
     public static ArrayList<ToDo> todos = new ArrayList<>();
     static {
-        todos.add(new ToDo("Do A"));
-        todos.add(new ToDo("Do B"));
-        todos.add(new ToDo("Do C"));
+        todos.add(new Data.ToDo("ToDo A"));
+        todos.add(new Data.ToDo("ToDo B"));
     }
 
     public static class ToDo {

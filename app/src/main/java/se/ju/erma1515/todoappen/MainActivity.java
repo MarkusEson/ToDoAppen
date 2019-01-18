@@ -23,6 +23,8 @@ public class MainActivity extends AppCompatActivity {
 
     public void selectButtonClicked(View view){
         System.out.println("SELECT button clicked");
+        Intent pickToDoIntent = new Intent(this, PickToDoActivity.class);  // identifies the activity CreateActivity and launches it
+        startActivity(pickToDoIntent);
     }
 
     public void deleteButtonClicked(View view){
