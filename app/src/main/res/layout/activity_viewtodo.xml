@@ -9,10 +9,30 @@
         android:orientation="vertical">
 
         <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TITLE:" />
+
+        <TextView
             android:id="@+id/task_todo_title"
             android:layout_width="match_parent"
             android:layout_height="55dp"
             android:text="todo text goes here"
             android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DESCRIPTION:" />
+
+        <TextView
+            android:id="@+id/task_todo_description"
+            android:layout_width="match_parent"
+            android:layout_height="423dp"
+            android:text="bla bla bla"
+            android:textSize="30sp" />
+
     </LinearLayout>
 </LinearLayout>

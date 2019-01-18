@@ -39,6 +39,11 @@ public class MainActivity extends AppCompatActivity {
         startActivityForResult(deleteToDoIntent, DELETE_TODO);
     }
 
+    public void userButtonClicked(View view) {
+
+        Intent userIntent = new Intent(this, UserActivity.class);
+        startActivity(userIntent);
+    }
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {

@@ -8,14 +8,17 @@ public class Data {
 
     public static ArrayList<ToDo> todos = new ArrayList<>();
     static {
-        todos.add(new Data.ToDo("ToDo A"));
-        todos.add(new Data.ToDo("ToDo B"));
+        todos.add(new Data.ToDo("ToDo A", "nothing here yet"));
+        todos.add(new Data.ToDo("ToDo B", "nothing here yet"));
     }
 
     public static class ToDo {
 
         public String title;
-        public ToDo(String title) {this.title = title;}
+        public String description;
+
+        public ToDo(String title, String description) {this.title = title; this.description = description;}
+
 
         @Override
         public String toString() { return "Todo: " + title; }

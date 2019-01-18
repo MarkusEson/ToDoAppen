@@ -17,12 +17,13 @@ public class CreateActivity extends AppCompatActivity {
 
     public void createButtonClicked(View view){
 
-        EditText inputToDoText = (EditText) findViewById(R.id.ToDotextField);                       // takes string from the TextBox input
-        String enteredTitle = inputToDoText.getText().toString();
+        EditText inputToDoText = (EditText) findViewById(R.id.text_title);
+        EditText inputDescriptiontext = (EditText)findViewById(R.id.text_description);              // takes string from the TextBox input
 
-        Data.todos.add(new Data.ToDo(enteredTitle));                                                // adds my Todoitem to the array
+        String enteredTitle = inputToDoText.getText().toString();
+        String enteredDescription = inputDescriptiontext.getText().toString();
+
+        Data.todos.add(new Data.ToDo(enteredTitle, enteredDescription));                            // adds my Todoitem to the array
         finish();
     }
-
-
 }

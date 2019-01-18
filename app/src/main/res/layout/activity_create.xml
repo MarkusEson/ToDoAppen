@@ -9,12 +9,20 @@
         android:orientation="vertical">
 
         <EditText
-            android:id="@+id/ToDotextField"
+            android:id="@+id/text_title"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="70dp"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="Title..." />
+            android:text="Title" />
+
+        <EditText
+            android:id="@+id/text_description"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Description" />
 
         <Button
             android:id="@+id/button2"
