@@ -18,24 +18,24 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main); // initiates the activity_create with the identifyer activity_main
+        setContentView(R.layout.activity_main);                                                     // initiates the activity_create with the identifyer activity_main
     }
 
     public void createButtonClicked(View view){
 
-        Intent createIntent = new Intent(this, CreateActivity.class);  // identifies the activity CreateActivity and launches it
+        Intent createIntent = new Intent(this, CreateActivity.class);                 // identifies the activity CreateActivity and launches it
         startActivity(createIntent);
     }
 
     public void selectButtonClicked(View view){
 
-        Intent pickToDoIntent = new Intent(this, PickToDoActivity.class);  // identifies the activity PickToDoActivity and launches it
+        Intent pickToDoIntent = new Intent(this, PickToDoActivity.class);             // identifies the activity PickToDoActivity and launches it
         startActivityForResult(pickToDoIntent, PICK_TODO);
     }
 
     public void deleteButtonClicked(View view){
 
-        Intent deleteToDoIntent = new Intent(this, PickToDoActivity.class);  // identifies the activity PickToDoActivity and launches it
+        Intent deleteToDoIntent = new Intent(this, PickToDoActivity.class);           // identifies the activity PickToDoActivity and launches it
         startActivityForResult(deleteToDoIntent, DELETE_TODO);
     }
 
@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
             // Make sure the request was successful
             if (resultCode == RESULT_OK) {
 
-                Integer position = data.getIntExtra("todoIndex", -1);   // get position integer of clicked ToDo from the intents Extra
+                Integer position = data.getIntExtra("todoIndex", -1);             // get position integer of clicked ToDo from the intents Extra
 
                 Intent viewToDointent = new Intent(MainActivity.this, ViewToDoActivity.class);
                 viewToDointent.putExtra("todoIndex", position);
@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
             // Make sure the request was successful
             if (resultCode == RESULT_OK) {
 
-                Integer position = data.getIntExtra("todoIndex", -1);   // get position integer of clicked ToDo from the intents Extra
+                Integer position = data.getIntExtra("todoIndex", -1);             // get position integer of clicked ToDo from the intents Extra
 
                 Intent deleteToDointent = new Intent(MainActivity.this, DeleteToDoActivity.class);
                 deleteToDointent.putExtra("todoIndex", position);
